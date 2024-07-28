@@ -20,7 +20,7 @@ let quotes = JSON.parse(localStorage.getItem('quotes')) || [
   }
   
   // Function to add a new quote
-  async function addQuote() {
+  async function createAddQuoteForm() {
     const newQuoteText = document.getElementById('newQuoteText').value;
     const newQuoteCategory = document.getElementById('newQuoteCategory').value;
     
